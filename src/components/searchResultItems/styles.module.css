@@ -1,0 +1,22 @@
+.container{
+  width: 55%;
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border:solid 1px #ededed;
+  transform: translateY(-17px);
+  border-top:none;
+}
+.listResults{
+  padding: 0;
+  list-style: none;  
+}
+.resultItem{
+  padding: 10px 0;
+  border-bottom: 1px #ededed solid;
+  border-top: 1px #ededed solid;
+  padding-left: 35px;
+}
+.resultItem:last-child{
+  border: none;
+}
